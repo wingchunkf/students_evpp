@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>HTML</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+  crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet">
+  <script src="main.js"></script>
+</head>
+<body>
+  <div class="container mb-5">
+  <h1 class="my-4">HTML - Hypertext Markup Language</h1>
+  <h3>Think of HTML as the 'frame of a house. It contains all of the text, images, and other visible elements on a web page.</h3>
+
+  <h4 style="text-decoration: none;">HTML Tag Example:</h4>
+  <xmp><h4>The text between the opening and closing tags will be displayed on your web page, as shown below.</h4></xmp>
+  <h4 style="text-decoration: none;">This is what the text looks like when displayed on your web page.</h4>
+
+  <h4>Some common tags</h4>
+  <ul>
+    <li><xmp><h1>Heading</h1></xmp></li>
+    <li><xmp><h2>Heading</h2></xmp></li>
+    <li><xmp><h3>Heading</h3></xmp></li>
+    <li><xmp><h4>Heading</h4></xmp></li>
+    <li><xmp><h5>Heading</h5></xmp></li>
+    <li><xmp><h6>Heading</h6></xmp></li>
+    <li><xmp><p>Paragraph</p></xmp></li>
+  </ul>
+  <ul>
+    <h4>Anchor tags</h4>
+    <li>The tag below is known as an 'anchor' tag and creates a link to another page.</li>
+    <li><xmp><a href="https://google.com">Go to Google</a></xmp></li>
+    <li>This is a working link. Click on it to see what happens.<a href="https://google.com">https://google.com</a></li>
+    <li>The 'href' is called an HTML <strong>attribute</strong> and tells the browser where to go.</li>
+    
+  </ul>
+
+<div class="images">
+      <h4>Image tags</h4>
+      <p>Image tags allow you to put pictures on your page. The image address is placed in between quotation marks.</p>
+      <p><xmp class="link-text"><img src="https://images.unsplash.com/photo...blahblahblah" /></xmp></p>
+      <img src="https://images.unsplash.com/photo-1535083783855-76ae62b2914e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" />
+      <p class="mt-2">The 'src' is another HTML <strong>attribute</strong> and tells the browser where to access the image.</p>
+    </div>
+  </div>
+
+<style>
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+h1, h3, h4, xmp, ul, .images {
+  text-align: center;
+  list-style-type: none;  
+}
+
+h4 {
+  text-decoration: underline;
+}
+
+xmp {
+  font-size: 20px;
+}
+
+h4 {
+  padding: 20px 0;
+}
+
+img {
+  width: 300px;
+  height: 400px;
+}
+
+.link-text {
+  font-size: 18px;
+  
+}
+
+</style>
+</body>
+</html>
